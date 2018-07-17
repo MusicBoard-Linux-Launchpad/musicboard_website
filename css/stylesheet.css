@@ -1,0 +1,145 @@
+#MB1 {
+height: 33%;
+width: 33%;
+margin-left: 33%;
+}
+
+#Label {
+height: 50%;
+width: 50%;
+margin-left: 50%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../pictures/Picture_SVG.svg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../pictures/MB1.png");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../pictures/MB14.png");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../pictures/MB14.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../pictures/Themes1.jpg");
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url("../pictures/Themes.jpg");
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax7 {
+    /* The image used */
+    background-image: url("../pictures/MB741_Crop.jpg");
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+.gsc-input-button{
+color: #000!important;
+height: 30px!important;
+width:50px!important;
+}
+
+.gsc-input-box{
+width:100px!important;
+border-color:#746534!important;
+height:30px!important;
+}
+
+#gsc-i-id1{
+background:none!important;
+}
+
+.gsc-input-button:hover {
+  background: #FEBD17 url(http://www.google.com/uds/css/v2/search_box_icon.png)no-repeat!important;
+  background-position: 20px!important;
+  border-color: #FEBD17!important;
+}
+
+.gsc-control-cse {
+  height: 20px;
+  color: #e6e6e6;
+}
+
+*/
+
+.gsc-control-wrapper-cse {
+        margin-top: -10px;
+}
+
+.gsc-control-cse {
+height: 10px;
+}
