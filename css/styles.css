@@ -244,7 +244,7 @@ body {
 .btn-key-select1 {
 	background-image: url(../pictures/KeysLF1.png);
     width: 50px;
-    height: 50px;
+    height: 50px;	
     background-size: 50px 50px;
     padding: 0px;
     margin-left: 40px;
@@ -281,3 +281,66 @@ body {
 	position: absolute;
 }
 
+#vol[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 175px;
+    margin-left: 320px;
+    background: url('pictures/Slider1.png');
+    position: absolute;
+}	
+
+.slider1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('pictures/Slider1.png');
+    cursor: pointer;
+}
+
+.slider1::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('pictures/Slider1.png');
+    cursor: pointer;
+}
+
+.slider2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('pictures/Slider14.png');
+    cursor: pointer;
+}
+
+.slider2::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('pictures/Slider14.png');
+    cursor: pointer;
+}
+
+#help {
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	background-color: #ffffff;
+	margin-left: 700px;
+}
+
+#Rgb {
+	height: 100px;
+	width: 300px;
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 40px;
+	background-color: #ffffff;
+}

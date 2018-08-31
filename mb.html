@@ -104,6 +104,14 @@
 
 <div>
  <div class="under-btn1">
+ 	<input id="vol" class="slider1" type="range" min="0" max="1" value="1" step="0.01" orient="vertical" oninput="myFunction(this.value)">
+ 	<p style="position: absolute; margin-left:300px; margin-top:200px; color: #ffffff;">Master</p>
+ 	<div id="help"> 
+ 		<p style="padding:5px;">This is the help of MusicBoard Online.</p>
+ 		<p style="padding:5px;">The keyboard is actioned with the qwerty and asdfgh rows on your keyboard.</p>
+ 		<p style="padding:5px;">The launchpad is actioned by the numpad with numlock on.</p>
+ 		<p style="padding:5px;">To customise MusicBoard, select a color with the RGB selector and send it to your preferred element / elements.</p>
+ 	</div>
   <div class="under-btn">
 	<div class="row mt-2 ">
 		<div class=" text-center">
@@ -269,13 +277,14 @@
  	<button class="btn-send" id="btn-send-main">Send to Main</button>
  	<button class="btn-send" id="btn-default">Default</button>
  </div>
-
+<div id="Rgb"> </div>
  <div class="slidecontainer" style="margin-left:700px; padding-top:10px; background-color:#759bd8; height: 100px; width: 390px;">
  <ul>
  <li style="list-style-type: none;"><span style="margin-bottom:20px; font-size:34px;">R:</span> <input id="R" type="range" min="0" max="255" value="157"> </li>
  <li style="list-style-type: none;"><span style="margin-bottom:20px; font-size:34px;">G:</span> <input id="G" type="range" min="0" max="255" value="146"> </li>
  <li style="list-style-type: none;"><span style="margin-bottom:20px; font-size:34px;">B:</span> <input id="B" type="range" min="0" max="255" value="215"> </li>
  </ul>
+ 
 </div>
 </div>
 

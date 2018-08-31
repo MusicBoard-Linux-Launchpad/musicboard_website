@@ -1,8 +1,14 @@
 var soundPath = "sounds/";
-
+var vol=1;
 function play(name) {
 	var sound = new Audio(soundPath + name);
+	sound.volume = vol;
 	sound.play();
+}
+
+function myFunction(value) {
+    //console.log(value);
+    vol = value;
 }
 
 function active_key(element, r, g, b) {
@@ -12,6 +18,8 @@ function active_key(element, r, g, b) {
 var r = $("#R").val();
 var g = $("#G").val();
 var b = $("#B").val();
+
+
 
 function get_val(){
 	var r = $("#R").val();
@@ -386,6 +394,75 @@ $( document ).ready(function() {
        $("#btn-pct").data('sound', "Sounds/LowEnd_FX_06.wav");
     });
 
+    $("#btn-set3").click(function() {
+   	   $("#btn-divide").text("UpDn");
+       $("#btn-multiply").text("Wbl");
+       $("#btn-minus").text("Lift");
+       $("#btn-7").text("Drop");
+       $("#btn-8").text("Pass");
+       $("#btn-9").text("Lock");
+       $("#btn-plus").text("Rpt");
+       $("#btn-4").text("Down");
+       $("#btn-5").text("Wom");
+       $("#btn-6").text("Orch");
+       $("#btn-1").text("Bam");
+       $("#btn-2").text("Wbl");
+       $("#btn-3").text("Lift");
+       $("#btn-enter").text("Low");
+       $("#btn-0").text("Tble");
+       $("#btn-pct").text("Wbl");
+       $("#btn-divide").data('sound', "Sounds/LowEnd_FX_17.wav");
+       $("#btn-multiply").data('sound', "Sounds/LowEnd_FX_03.wav");
+       $("#btn-minus").data('sound', "Sounds/LowEnd_FX_04.wav");
+       $("#btn-7").data('sound', "Sounds/Bass Drop (Extended) (Louder).wav");
+       $("#btn-8").data('sound', "Sounds/Pass.wav");
+       $("#btn-9").data('sound', "Sounds/DROP 07 Scos Sfarsit Scos.wav");
+       $("#btn-plus").data('sound', "Sounds/LowEnd_FX_07.wav");
+       $("#btn-4").data('sound', "Sounds/Down.wav");
+       $("#btn-5").data('sound', "Sounds/FX4.wav");
+       $("#btn-6").data('sound', "Sounds/Orchestra Hit 001 Revved.wav");
+       $("#btn-1").data('sound', "Sounds/ufx_imp_atomic.wav");
+       $("#btn-2").data('sound', "Sounds/LowEnd_FX_01.wav");
+       $("#btn-3").data('sound', "Sounds/LowEnd_FX_14.wav");
+       $("#btn-enter").data('sound', "Sounds/LowEnd_FX_09.wav");
+       $("#btn-0").data('sound', "Sounds/LowEnd_FX_08.wav");
+       $("#btn-pct").data('sound', "Sounds/LowEnd_FX_10.wav");
+    });
+
+	$("#btn-set4").click(function() {
+   	   $("#btn-divide").text("Clk");
+       $("#btn-multiply").text("Swp");
+       $("#btn-minus").text("Wbl");
+       $("#btn-7").text("Kick");
+       $("#btn-8").text("Snare");
+       $("#btn-9").text("Wom");
+       $("#btn-plus").text("Lift");
+       $("#btn-4").text("Pass");
+       $("#btn-5").text("Drop");
+       $("#btn-6").text("Lock");
+       $("#btn-1").text("Low");
+       $("#btn-2").text("Orch");
+       $("#btn-3").text("Bam");
+       $("#btn-enter").text("Low");
+       $("#btn-0").text("Lift");
+       $("#btn-pct").text("Rpt");
+       $("#btn-divide").data('sound', "Sounds/LowEnd_FX_01.wav");
+       $("#btn-multiply").data('sound', "Sounds/LowEnd_FX_02.wav");
+       $("#btn-minus").data('sound', "Sounds/LowEnd_FX_03.wav");
+       $("#btn-7").data('sound', "Sounds/TMS3_NuKick_165.wav");
+       $("#btn-8").data('sound', "Sounds/TMS3_Snare_002.wav");
+       $("#btn-9").data('sound', "Sounds/FX4.wav");
+       $("#btn-plus").data('sound', "Sounds/LowEnd_FX_04.wav");
+       $("#btn-4").data('sound', "Sounds/Pass.wav");
+       $("#btn-5").data('sound', "Sounds/Bass Drop (Extended) (Louder).wav");
+       $("#btn-6").data('sound', "Sounds/DROP 07 Scos Sfarsit Scos.wav");
+       $("#btn-1").data('sound', "Sounds/Down.wav");
+       $("#btn-2").data('sound', "Sounds/Orchestra Hit 001 Revved.wav");
+       $("#btn-3").data('sound', "Sounds/ufx_imp_atomic.wav");
+       $("#btn-enter").data('sound', "Sounds/LowEnd_FX_05.wav");
+       $("#btn-0").data('sound', "Sounds/LowEnd_FX_06.wav");
+       $("#btn-pct").data('sound', "Sounds/LowEnd_FX_07.wav");
+    });
 
     $("#btn-set1").mouseup(function() {
        $("#btn-set1").removeClass("btn-set-active");
@@ -453,6 +530,10 @@ $( document ).ready(function() {
     	$("#G").val(146);
     	$("#B").val(215);
     });
+
+     $("#vol").oninput(function() {
+     	console.log($(this).val());
+     });
 
 });
 
