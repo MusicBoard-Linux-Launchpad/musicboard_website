@@ -11,6 +11,11 @@ function myFunction(value) {
     vol = value;
 }
 
+function myFunction1() {
+    //console.log(value);
+    active_key($("#Rgb"), $("#R").val(), $("#G").val(), $("#B").val());
+}
+
 function active_key(element, r, g, b) {
     $(element).css("background-color", "rgb("+ r +", "+ g +","+ b +")");
 }
@@ -535,5 +540,16 @@ $( document ).ready(function() {
      	console.log($(this).val());
      });
 
+     $("#R").click(function(){
+     	active_key($("#Rgb"), $("#R").val(), $("#G").val(), $("#B").val());	
+     });
+
+     $("#G").click(function(){
+     	active_key($("#Rgb"), $("#R").val(), $("#G").val(), $("#B").val());	
+     });
+
+     $("#B").click(function(){
+     	active_key($("#Rgb"), $("#R").val(), $("#G").val(), $("#B").val());	
+     });
 });
 
