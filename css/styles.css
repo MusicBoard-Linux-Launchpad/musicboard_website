@@ -288,7 +288,7 @@ body {
     width: 8px;
     height: 175px;
     margin-left: 320px;
-    background: url('pictures/Slider1.png');
+    background: url('../pictures/Slider1.png');
     position: absolute;
 }	
 
@@ -298,7 +298,7 @@ body {
     width: 23px;
     height: 24px;
     border: 0;
-    background: url('pictures/Slider1.png');
+    background: url('../pictures/Slider1.png');
     cursor: pointer;
 }
 
@@ -306,7 +306,7 @@ body {
     width: 23px;
     height: 24px;
     border: 0;
-    background: url('pictures/Slider1.png');
+    background: url('../pictures/Slider1.png');
     cursor: pointer;
 }
 
@@ -316,7 +316,7 @@ body {
     width: 23px;
     height: 24px;
     border: 0;
-    background: url('pictures/Slider14.png');
+    background: url('../pictures/Slider14.png');
     cursor: pointer;
 }
 
@@ -324,7 +324,7 @@ body {
     width: 23px;
     height: 24px;
     border: 0;
-    background: url('pictures/Slider14.png');
+    background: url('../pictures/Slider14.png');
     cursor: pointer;
 }
 

@@ -536,10 +536,6 @@ $( document ).ready(function() {
     	$("#B").val(215);
     });
 
-     $("#vol").oninput(function() {
-     	console.log($(this).val());
-     });
-
      $("#R").click(function(){
      	active_key($("#Rgb"), $("#R").val(), $("#G").val(), $("#B").val());	
      });
