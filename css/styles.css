@@ -226,3 +226,58 @@ body {
 	height: ;
 	width: ;
 }
+
+.btn-key-select {
+	background-image: url(../pictures/KeysLF.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 40px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+
+.btn-key-select1 {
+	background-image: url(../pictures/KeysLF1.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 40px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+.btn-set {
+	background-image: url(../pictures/Sets.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 40px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+
+.btn-set-active{
+	background-image: url(../pictures/Sets1.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 40px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+

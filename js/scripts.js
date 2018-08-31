@@ -117,7 +117,7 @@ $( document ).ready(function() {
 			break;
 			case 107:
 				$("#btn-k").addClass("btn-key-active");
-				play($("#btn-j").data("sound"));
+				play($("#btn-k").data("sound"));
 			break;
 			case 108:
 				$("#btn-l").addClass("btn-key-active");
@@ -133,7 +133,7 @@ $( document ).ready(function() {
 			break;
 			case 92:
 				$("#btn-vd").addClass("btn-key-active");
-				play($("#btn-d").data("sound"));
+				play($("#btn-vd").data("sound"));
 			break;
 
 			case 119:
@@ -209,6 +209,7 @@ $( document ).ready(function() {
 		$(this).removeClass("btn-img3-active");
 		$(this).removeClass("btn-key-active");
 		$(this).removeClass("btn-key-b-active");
+		active_key($(".btn-key-b"), $("#R").val(), $("#G").val(), $("#B").val());
 	});
 
 	$(document).keyup(function(event){
@@ -219,7 +220,7 @@ $( document ).ready(function() {
 		$(".btn-sound").removeClass("btn-key-active");
 		$(".btn-sound").removeClass("btn-key-b-active");
 		active_key($(".btn-key-b"), $("#R").val(), $("#G").val(), $("#B").val());
-	});
+	});	
 
     $("#btn-send-keys").click(function() {
     	var r = $("#R").val();
@@ -241,6 +242,207 @@ $( document ).ready(function() {
    
     $("#btn-send-main").click(function() {
     	active_key($(".under-btn1"), $("#R").val(), $("#G").val(), $("#B").val());
+    });
+
+    $("#btn-key2").click(function() {
+       $("#btn-w").data('sound', "Pno2/2C_B.mp3");
+       $("#btn-e").data('sound', "Pno2/2D_B.mp3");
+       $("#btn-t").data('sound', "Pno2/2F_B.mp3");
+       $("#btn-y").data('sound', "Pno2/2G_B.mp3");
+       $("#btn-u").data('sound', "Pno2/2A_B.mp3");
+       $("#btn-o").data('sound', "Pno2/2C2_B.mp3");
+       $("#btn-p").data('sound', "Pno2/2D2_B.mp3");
+       $("#btn-b").data('sound', "Pno2/2F2_B.mp3");
+       $("#btn-a").data('sound', "Pno2/2C.mp3");
+       $("#btn-s").data('sound', "Pno2/2D.mp3");
+       $("#btn-d").data('sound', "Pno2/2E.mp3");
+       $("#btn-f").data('sound', "Pno2/2F.mp3");
+       $("#btn-g").data('sound', "Pno2/2G.mp3");
+       $("#btn-h").data('sound', "Pno2/2A.mp3");
+       $("#btn-j").data('sound', "Pno2/2B.mp3");
+       $("#btn-k").data('sound', "Pno2/2C2.mp3");
+       $("#btn-l").data('sound', "Pno2/2D2.mp3");
+       $("#btn-pct-c").data('sound', "Pno2/2E2.mp3");
+       $("#btn-gh").data('sound', "Pno2/2F2.mp3");
+       $("#btn-vd").data('sound', "Pno2/2G2.mp3");
+        //$("#btn-3").text("skkh");
+    });
+
+	$("#btn-key1").click(function() {
+       $("#btn-w").data('sound', "Pno1/C_B.mp3");
+       $("#btn-e").data('sound', "Pno1/D_B.mp3");
+       $("#btn-t").data('sound', "Pno1/F_B.mp3");
+       $("#btn-y").data('sound', "Pno1/G_B.mp3");
+       $("#btn-u").data('sound', "Pno1/A_B.mp3");
+       $("#btn-o").data('sound', "Pno1/C2_B.mp3");
+       $("#btn-p").data('sound', "Pno1/D2_B.mp3");
+       $("#btn-b").data('sound', "Pno1/F2_B.mp3");
+       $("#btn-a").data('sound', "Pno1/C.mp3");
+       $("#btn-s").data('sound', "Pno1/D.mp3");
+       $("#btn-d").data('sound', "Pno1/E.mp3");
+       $("#btn-f").data('sound', "Pno1/F.mp3");
+       $("#btn-g").data('sound', "Pno1/G.mp3");
+       $("#btn-h").data('sound', "Pno1/A.mp3");
+       $("#btn-j").data('sound', "Pno1/B.mp3");
+       $("#btn-k").data('sound', "Pno1/C2.mp3");
+       $("#btn-l").data('sound', "Pno1/D2.mp3");
+       $("#btn-pct-c").data('sound', "Pno1/E2.mp3");
+       $("#btn-gh").data('sound', "Pno1/F2.mp3");
+       $("#btn-vd").data('sound', "Pno1/G2.mp3");
+        //$("#btn-3").text("skkh");
+    });
+
+	$("#btn-key3").click(function() {
+       $("#btn-w").data('sound', "Pno3/4_2_CB.mp3");
+       $("#btn-e").data('sound', "Pno3/4_4_DB.mp3");
+       $("#btn-t").data('sound', "Pno3/4_7_FB.mp3");
+       $("#btn-y").data('sound', "Pno3/4_9_GB.mp3");
+       $("#btn-u").data('sound', "Pno3/4_11_AB.mp3");
+       $("#btn-o").data('sound', "Pno3/4_14_CB.mp3");
+       $("#btn-p").data('sound', "Pno3/4_16_DB.mp3");
+       $("#btn-b").data('sound', "Pno3/4_19_FB.mp3");
+       $("#btn-a").data('sound', "Pno3/4_1_C.mp3");
+       $("#btn-s").data('sound', "Pno3/4_3_D.mp3");
+       $("#btn-d").data('sound', "Pno3/4_5_E.mp3");
+       $("#btn-f").data('sound', "Pno3/4_6_F.mp3");
+       $("#btn-g").data('sound', "Pno3/4_8_G.mp3");
+       $("#btn-h").data('sound', "Pno3/4_10_A.mp3");
+       $("#btn-j").data('sound', "Pno3/4_12_B.mp3");
+       $("#btn-k").data('sound', "Pno3/4_13_C.mp3");
+       $("#btn-l").data('sound', "Pno3/4_15_D.mp3");
+       $("#btn-pct-c").data('sound', "Pno3/4_17_E.mp3");
+       $("#btn-gh").data('sound', "Pno3/4_17_1_F.mp3");
+       $("#btn-vd").data('sound', "Pno3/4_20_G.mp3");
+        //$("#btn-3").text("skkh");
+    });
+
+    $("#btn-set1").click(function() {
+       $("#btn-divide").text("Down");
+       $("#btn-multiply").text("Wbl");
+       $("#btn-minus").text("Wbl");
+       $("#btn-7").text("Kick");
+       $("#btn-8").text("Snare");
+       $("#btn-9").text("Orch");
+       $("#btn-plus").text("UpDn");
+       $("#btn-4").text("Drop");
+       $("#btn-5").text("Bam");
+       $("#btn-6").text("Rpt");
+       $("#btn-1").text("Wom");
+       $("#btn-2").text("Lift");
+       $("#btn-3").text("Pass");
+       $("#btn-enter").text("Lift");
+       $("#btn-0").text("Low");
+       $("#btn-pct").text("Wbl");
+       $("#btn-divide").data('sound', "Sounds/Down.wav");
+       $("#btn-multiply").data('sound', "Sounds/LowEnd_FX_09.wav");
+       $("#btn-minus").data('sound', "Sounds/LowEnd_FX_03.wav");
+       $("#btn-7").data('sound', "Sounds/TMS3_NuKick_165.wav");
+       $("#btn-8").data('sound', "Sounds/TMS3_Snare_002.wav");
+       $("#btn-9").data('sound', "Sounds/Orchestra Hit 001 Revved.wav");
+       $("#btn-plus").data('sound', "Sounds/LowEnd_FX_01.wav");
+       $("#btn-4").data('sound', "Sounds/Bass Drop (Extended) (Louder).wav");
+       $("#btn-5").data('sound', "Sounds/ufx_imp_atomic.wav");
+       $("#btn-6").data('sound', "Sounds/LowEnd_FX_01.wav");
+       $("#btn-1").data('sound', "Sounds/FX4.wav");
+       $("#btn-2").data('sound', "Sounds/LowEnd_FX_04.wav");
+       $("#btn-3").data('sound', "Sounds/Pass.wav");
+       $("#btn-enter").data('sound', "Sounds/LowEnd_FX_14.wav");
+       $("#btn-0").data('sound', "Sounds/LowEnd_FX_02.wav");
+       $("#btn-pct").data('sound', "Sounds/LowEnd_FX_07.wav	");
+    });
+
+    $("#btn-set2").click(function() {
+   	   $("#btn-divide").text("Bam");
+       $("#btn-multiply").text("Wbl");
+       $("#btn-minus").text("Lift");
+       $("#btn-7").text("Kick");
+       $("#btn-8").text("Snare");
+       $("#btn-9").text("Wom");
+       $("#btn-plus").text("UpDn");
+       $("#btn-4").text("Orch");
+       $("#btn-5").text("Rpt");
+       $("#btn-6").text("Wbl");
+       $("#btn-1").text("Low");
+       $("#btn-2").text("Drop");
+       $("#btn-3").text("Clk");
+       $("#btn-enter").text("Lift");
+       $("#btn-0").text("Low");
+       $("#btn-pct").text("Wbl");
+       $("#btn-divide").data('sound', "Sounds/ufx_imp_atomic.wav");
+       $("#btn-multiply").data('sound', "Sounds/LowEnd_FX_01.wav");
+       $("#btn-minus").data('sound', "Sounds/LowEnd_FX_02.wav");
+       $("#btn-7").data('sound', "Sounds/TMS3_NuKick_165.wav");
+       $("#btn-8").data('sound', "Sounds/TMS3_Snare_002.wav");
+       $("#btn-9").data('sound', "Sounds/FX4.wav");
+       $("#btn-plus").data('sound', "Sounds/LowEnd_FX_03.wav");
+       $("#btn-4").data('sound', "Sounds/Orchestra Hit 001 Revved.wav");
+       $("#btn-5").data('sound', "Sounds/LowEnd_FX_07.wav");
+       $("#btn-6").data('sound', "Sounds/LowEnd_FX_08.wav");
+       $("#btn-1").data('sound', "Sounds/LowEnd_FX_09.wav");
+       $("#btn-2").data('sound', "Sounds/Bass Drop (Extended) (Louder).wav");
+       $("#btn-3").data('sound', "Sounds/FX5.wav");
+       $("#btn-enter").data('sound', "Sounds/LowEnd_FX_04.wav");
+       $("#btn-0").data('sound', "Sounds/LowEnd_FX_05.wav");
+       $("#btn-pct").data('sound', "Sounds/LowEnd_FX_06.wav");
+    });
+
+
+    $("#btn-set1").mouseup(function() {
+       $("#btn-set1").removeClass("btn-set-active");
+    });
+
+	$("#btn-set2").mouseup(function() {
+       $("#btn-set2").removeClass("btn-set-active");
+    });
+
+    $("#btn-set2").mousedown(function() {
+       $("#btn-set2").addClass("btn-set-active");
+    });
+
+    $("#btn-set1").mousedown(function() {
+       $("#btn-set1").addClass("btn-set-active");
+    });
+
+   $("#btn-set3").mouseup(function() {
+       $("#btn-set3").removeClass("btn-set-active");
+    });
+
+	$("#btn-set4").mouseup(function() {
+       $("#btn-set4").removeClass("btn-set-active");
+    });
+
+    $("#btn-set3").mousedown(function() {
+       $("#btn-set3").addClass("btn-set-active");
+    });
+
+    $("#btn-set4").mousedown(function() {
+       $("#btn-set4").addClass("btn-set-active");
+    });
+
+
+    $("#btn-key1").mouseup(function() {
+       $("#btn-key1").removeClass("btn-key-select1");
+    });
+
+	$("#btn-key2").mouseup(function() {
+       $("#btn-key2").removeClass("btn-key-select1");
+    });
+
+
+	$("#btn-key3").mouseup(function() {
+       $("#btn-key3").removeClass("btn-key-select1");
+    });
+
+    $("#btn-key1").mousedown(function() {
+       $("#btn-key1").addClass("btn-key-select1");
+    });
+
+    $("#btn-key2").mousedown(function() {
+       $("#btn-key2").addClass("btn-key-select1");
+    });
+
+    $("#btn-key3").mousedown(function() {
+       $("#btn-key3").addClass("btn-key-select1");
     });
 
     $("#btn-default").click(function() {
