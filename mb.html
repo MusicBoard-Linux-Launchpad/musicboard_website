@@ -1,5 +1,8 @@
 
 <!doctype html>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -21,11 +24,10 @@
 
     <!-- Bootstrap CSS -->
 
-
 <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e6e6e6;">
 <a href="/"><img  src="pictures/Picture_SVG_1.svg" height="47rem" width="47rem"></a>
 
-<a class="navbar-brand" href="/">  MusicBoard</a>
+<a class="navbar-brand" href="/">  Mu6Board</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -36,7 +38,7 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.musicboard-blog.weebly.com" target="_blank">Blog</a>
+        <a class="nav-link" href="blog.html" target="_blank">Blog</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="download.html">Download</a>
@@ -95,26 +97,178 @@
   <body>
 
 <div style="height:0%;background-color: #595959; font-size:37px">
-	<p align="center"  style="color: #ffffff; border-top: 4px solid #cccccc; height:""> </p>
+	<p align="center"  style="color: #ffffff; border-top: 4px solid #cccccc; height:"> </p>
 </div>
 
-<div style="height:;background-color:#759bd8;font-size:47px; border-top: 5px solid #759bd8; color: #ffffff; text-align:center;">
-Online Launchpad Coming!
+
+
+<div>
+ <div class="under-btn1">
+  <div class="under-btn">
+	<div class="row mt-2 ">
+		<div class=" text-center">
+			<button id="btn-nmlk" class="btn-sound btn-img" data-sound="">NmLk</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-divide" class="btn-sound btn-img" data-sound="LowEnd_FX_01.wav">Clk</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-multiply" class="btn-sound btn-img" data-sound="LowEnd_FX_02.wav">Swp</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-minus" class="btn-sound btn-img1" data-sound="LowEnd_FX_03.wav" style="margin-left:10px;">Wbl</button>
+		</div>
+	</div>
+	<div class="row mt-2">
+		<div class=" text-center">
+			<button id="btn-7" class="btn-sound btn-img" data-sound="TMS3_NuKick_165.wav">Kick</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-8" class="btn-sound btn-img" data-sound="TMS3_Snare_002.wav">Snare</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-9" class="btn-sound btn-img" data-sound="FX4.wav">Wom</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-plus" class="btn-sound btn-img2" data-sound="LowEnd_FX_04.wav" style="margin-left:10px;">Lift</button>
+		</div>
+	</div>
+	<div class="row mt-2">
+		<div class=" text-center">
+			<button id="btn-4" class="btn-sound btn-img" data-sound="Pass.wav">Pass</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-5" class="btn-sound btn-img" data-sound="Bass Drop (Extended) (Louder).wav">Drop</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-6" class="btn-sound btn-img" data-sound="DROP 07 Scos Sfarsit Scos.wav">Lock</button>
+		</div>
+	
+	</div>
+	<div class="row mt-2">
+		<div class=" text-center">
+			<button id="btn-1" class="btn-sound btn-img" data-sound="Down.wav">Low</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-2" class="btn-sound btn-img" data-sound="Orchestra Hit 001 Revved.wav">Orch</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-3" class="btn-sound btn-img" data-sound="ufx_imp_atomic.wav">Bam</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-enter" class="btn-sound btn-img2" data-sound="LowEnd_FX_05.wav" style="margin-left:10px; margin-top:0px;">Low</button>
+		</div>
+	</div>
+	<div class="row mt-2">
+		<div class=" text-center">
+			<button id="btn-0" class="btn-sound btn-img3" data-sound="LowEnd_FX_06.wav" style="margin-left:30px;">Lift</button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-pct" class="btn-sound btn-img1" data-sound="LowEnd_FX_07.wav" style="margin-left:110px;">Rpt</button>
+		</div>
+	</div> 
+  </div>
+  <div class="separator"></div>
+  <div class="under-keys">
+  	<div class="row mt-2">
+		<div class=" text-center">
+			<button id="btn-w" class="btn-sound btn-key-b" data-sound="" style="margin-left: 43px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-e" class="btn-sound btn-key-b" data-sound="" style="margin-left: 10px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-t" class="btn-sound btn-key-b" data-sound="" style="margin-left: 40px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-y" class="btn-sound btn-key-b" data-sound="" style="margin-left: 10px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-u" class="btn-sound btn-key-b" data-sound="" style="margin-left: 10px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-o" class="btn-sound btn-key-b" data-sound="" style="margin-left: 40px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-p" class="btn-sound btn-key-b" data-sound="" style="margin-left: 10px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-b" class="btn-sound btn-key-b" data-sound="" style="margin-left: 40px;"></button>
+		</div>
+  </div>
+  <div class="row mt-2" style="margin-top: 1px; padding: 0px; border: none;">
+		<div class=" text-center">
+			<button id="btn-a" class="btn-sound btn-key" data-sound="" style="margin-left:28px;"></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-s" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-d" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-f" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-g" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-h" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-j" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-k" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-l" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-pct-c" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-gh" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+		<div class=" text-center">
+			<button id="btn-vd" class="btn-sound btn-key" data-sound=""></button>
+		</div>
+  </div>
+ </div>
+
+ <div class="btns-send" style="margin-left: 700px;"> 
+ 	<button class="btn-send" id="btn-send-keys">Send to Keys</button>
+ 	<button class="btn-send" id="btn-send-line">Send to Line</button>
+ 	<button class="btn-send" id="btn-send-main">Send to Main</button>
+ 	<button class="btn-send" id="btn-default">Default</button>
+ </div>
+
+ <div class="slidecontainer" style="margin-left:700px; padding-top:10px; background-color:#759bd8; height: 100px; width: 390px;">
+ <ul>
+ <li style="list-style-type: none;"><span style="margin-bottom:20px; font-size:34px;">R:</span> <input id="R" type="range" min="0" max="255" value="157"> </li>
+ <li style="list-style-type: none;"><span style="margin-bottom:20px; font-size:34px;">G:</span> <input id="G" type="range" min="0" max="255" value="146"> </li>
+ <li style="list-style-type: none;"><span style="margin-bottom:20px; font-size:34px;">B:</span> <input id="B" type="range" min="0" max="255" value="215"> </li>
+ </ul>
+</div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+
+<div style="height:560px;background-color:#759bd8;font-size:47px; border-top: 5px solid #759bd8; color: #ffffff;  text-align:center;">
 <div style="height:24rem;background-image:#ffffff;font-size:14px">
-<img src="pictures/Picture_SVG_1.svg" height=100% width=100% style="margin-top: 7rem; " align=center;> 
+<img src="pictures/Picture_SVG_1.svg" height=100% width=100% style="margin-top: 34em; " align=center;> 
 </div>
 
 </div>
-
 <div class="parallax2"></div>
 
 <div style="height:21px;background-image:#ffffff;font-size:14px">
  
 </div>
-
-
-
-
 
 <nav class="navbar sticky-bottom navbar-expand-lg navbar-light" style="background-color: #e6e6e6;">
 <img  src="pictures/Picture_SVG_1.svg" height="47rem" width="47rem" >

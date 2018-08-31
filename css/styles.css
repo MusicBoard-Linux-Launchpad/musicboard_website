@@ -1,0 +1,228 @@
+body {
+  padding: 0px;
+}
+
+.btn-img {
+	background-image: url(../pictures/LaunchPad.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+}
+
+.btn-img-active {
+	background-image: url(../pictures/LaunchPad1.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+}
+
+.btn-img1 {
+	background-image: url(../pictures/KeyD.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.btn-img1-active {
+	background-image: url(../pictures/KeyD1.png);
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.btn-img2 {
+	background-image: url(../pictures/KeyLT.png);
+    width: 50px;
+    height: 100px;
+    background-size: 50px 100px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+.btn-img2-active {
+	background-image: url(../pictures/KeyLT1.png);
+    width: 50px;
+    height: 100px;
+    background-size: 50px 100px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+.btn-img3{
+	background-image: url(../pictures/KeyDL.png);
+    width: 70px;
+    height: 50px;
+    background-size: 70px 50px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+.btn-img3-active {
+	background-image: url(../pictures/KeyDL1.png);
+    width: 70px;
+    height: 50px;
+    background-size: 70px 50px;
+    padding: 0px;
+    margin-left: 7px;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	position: absolute;
+}
+
+.under-btn {
+    background-color: #949494;
+    border: none;
+    padding:17px;
+    padding-top: 7px;
+    width: 240px;
+    height: 307px;
+    position: absolute;
+    margin-left: 0px;
+}
+
+.under-btn1 {
+    background-color: #7E71BF;
+    border: none;
+    padding:17px;
+    padding-top: 14px;
+    width: 540px;
+    height: 547px;
+    position: absolute;
+    margin-left: 0px;
+}
+
+.separator {
+	height: 6px;
+	width: 350px;
+	margin-top: 320px;
+	background-color: #FF9F9F;
+}
+
+.under-keys {
+	height: 190px;
+	position: absolute;
+	width: 350px;
+	background-color: #555753;
+}
+
+.btn-key-b {
+	height: 70px;
+	width: 17px;
+	color: #ffffff;
+	background-color: #9D92D4;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: none;
+	font-size: 10px;
+}
+
+.btn-key-b-active {
+	height: 70px;
+	width: 17px;
+	color: #ffffff;
+	background-color: #7E71BF;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: none;
+	font-size: 10px;
+}
+
+.btn-key {
+	height: 80px;
+	width: 17px;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: none;
+	background-color: #ffffff;
+	font-size: 10px;
+	margin-left: 11px;
+}
+
+.btn-key-active {
+	height: 80px;
+	width: 17px;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: rgb(210, 210, 210);
+	border: none;
+	font-size: 11px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.btns-send {
+	display: inline;
+	background-color: ;
+	color: ;
+}
+
+.btn-send {
+	background-color: #9D92D4;
+	color: white;
+	height: ;
+	width: ;
+}
